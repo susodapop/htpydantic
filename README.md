@@ -6,7 +6,7 @@ at _runtime_, combining the two made a lot of sense to me.
 
 This repository is here as a demonstration of a pattern. For my usage, inheriting from the
 default `BaseModel` is more than sufficient. But if you already customize your models then
-you should copy this code into your repository and swap out `BaseModel` hohwever you like.
+you should copy this code into your repository and swap out `BaseModel` however you like.
 
 ## Usage
 
