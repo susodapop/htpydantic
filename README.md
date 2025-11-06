@@ -11,6 +11,9 @@ you should copy this code into your repository and swap out `BaseModel` however 
 ## Usage
 
 ```python
+from htpy import div, Element
+from htpydantic import HtPydanticModel
+
 class UserComponent(HtPydanticModel):
     user_id: int
     username: str
