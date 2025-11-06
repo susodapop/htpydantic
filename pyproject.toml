@@ -1,0 +1,24 @@
+[project]
+name = "htpydantic"
+version = "0.1.0"
+description = "Render Pydantic V2 models directly within htpy Elements"
+authors = [
+    {name = "Jesse Whitehouse",email = "jesse@whitehouse.dev"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic (>=2.12.4,<3.0.0)",
+    "htpy (>=25.10.0,<26.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.3"
+pytest = "^8.4.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
